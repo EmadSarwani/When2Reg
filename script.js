@@ -9,7 +9,9 @@ const backDrop = document.getElementById('modalBackDrop');
 const eventTitleInput = document.getElementById('eventTitleInput');
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-
+function dummy() {
+	alert("dummy message...");
+}
 
 function openModal(date) {
   clicked = date;
@@ -125,6 +127,8 @@ function initButtons() {
     nav--;
     load();
   });
+
+  document.getEelementById('createEvent').addEventListener('click', dummy);
 
   document.getElementById('saveButton').addEventListener('click', saveEvent);
   document.getElementById('cancelButton').addEventListener('click', closeModal);
