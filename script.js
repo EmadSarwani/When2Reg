@@ -9,6 +9,10 @@ const backDrop = document.getElementById('modalBackDrop');
 const eventTitleInput = document.getElementById('eventTitleInput');
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
+
+function dummy_msg() { alert("Dummy message..."); }
+
+
 function openModal(date) {
   clicked = date;
 
