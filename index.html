@@ -22,10 +22,7 @@
                <form action="main.html">
                   <label for="fname">Event name</label>
                   <input type="text" id="fname" name="fname"><br><br>
-                  <!-- <input type="submit" value="Create Event"> -->
-				  <a href="main.html">  
-					Click Me 
-				  </a>
+                  <input type="submit" onclick="dummy_msg()" value="Create Event">
                </form> 
             </h2>
             <!-- Timing question before drop down menu to select times -->
@@ -94,6 +91,9 @@
                <br><br>
             </form>
             <br><br>
+			<script src="./script.js">
+				function dummy_msg() { alert("Dummy message..."); }
+			</script>
          </div>
       </div>
      <!-- right side of the screen containing  either calendar component
