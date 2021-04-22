@@ -128,7 +128,7 @@ function initButtons() {
     load();
   });
 
-  document.getEelementById('createEvent').addEventListener('click', dummy);
+  document.getElementById('createEvent').addEventListener('click', dummy);
 
   document.getElementById('saveButton').addEventListener('click', saveEvent);
   document.getElementById('cancelButton').addEventListener('click', closeModal);
