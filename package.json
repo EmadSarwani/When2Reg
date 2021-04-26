@@ -1,0 +1,33 @@
+{
+  "name": "when2regmain",
+  "version": "1.0.0",
+  "description": "This is a clone of the event planning website when2meet.com as a basis to create a reverse scheduling website for ODASIS(RU).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmadSarwani/When2Reg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmadSarwani/When2Reg/issues"
+  },
+  "homepage": "https://github.com/EmadSarwani/When2Reg#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.12.4"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
